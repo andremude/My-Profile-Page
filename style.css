@@ -1,0 +1,110 @@
+body {
+    background-color: #D3DEDC;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.container {
+    width: 900px;
+    margin: 40px auto;
+}
+
+@media (max-width: 992px) {
+    .container {
+      width: 700px;
+    }
+}
+
+@media (max-width: 976px) {
+    .container {
+      width: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+      width: 450px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 50px 90px;
+    box-shadow: 7px 5px 15px #686767;
+    border-radius: 10px;
+}
+
+.card-white:hover {
+    background-color: rgba(112, 109, 109, 0.692);
+}
+
+#profile-picture {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#webdev-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#cycling-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#trekking-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline {
+padding-left: 0px;
+}
+
+.list-inline i {
+    font-size: 40px;
+    padding: 15px;
+    color: rgb(21, 44, 114);
+}
+
+.list-inline i:hover {
+    color:rgb(165, 112, 112)
+}
+
+.btn-blue {
+    background-color: rgb(21, 44, 114);;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.btn-blue:hover {
+    background-color: rgb(165, 112, 112);
+}
+
+.btn-blue:active {
+    transform: scale(0.98);
+}
